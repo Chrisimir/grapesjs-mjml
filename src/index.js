@@ -1,3 +1,4 @@
+
 export default (editor, opts = {}) => {
   const opt = {
 
@@ -77,6 +78,9 @@ export default (editor, opts = {}) => {
 
   // Extend Style Manager
   require('./style').default(editor, opt);
+
+  // Environment variable loader
+  require('dotenv').config()
 
   // Update devices
   if (opt.resetDevices) {
