@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "fs": "0.0.1-security",
+    "grapesjs": "^0.14.62",
     "mjml": "^3.3.5"
   },
   "devDependencies": {
